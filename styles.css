@@ -6,6 +6,10 @@
         background-repeat: no-repeat;
         background-size:100% 100vh;
         }
+    a{
+        color: teal;
+        text-decoration: none;
+    }
     #headerlogo img{
             margin-top: 100px;
             margin-bottom: 100px;
@@ -19,12 +23,26 @@
             border-color: #330033;
             border-width: 5px;
     }
-    h1{
+    h1 {
         font-size: 60px;
         text-align: center;
         -webkit-text-fill-color: black;
         -webkit-text-stroke-color: white;
         -webkit-text-stroke-width: 1.00px;
+        
+    }
+    #buttonBox {  
+        padding: 10px 24px; 
+        width: 25%; 
+        display: block;
+        float: left; 
+        vertical-align: middle;
+    }
+    .button {
+        background-color: darkred;
+        font-size: 24px;
+        width: 250px;
+        
         
     }
     #intro {
@@ -44,3 +62,69 @@
         
         
     }
+h2 {
+    font-size: 55;
+    color:silver;
+    background-color: teal;
+    text-align: center;   
+}
+#alienRaceIntro {
+    width: 590px;
+    height: 340px;
+    padding: 50px;
+    margin: 30px;
+    background-image: url("./images/textBlockBackground.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+#raceTable{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alienRaceGroup{
+    text-align: center;
+    background-image: url("./images/textBlockBackground.jpg");
+    margin: 20px,20px,20px,20px;
+    padding: 5%;
+    width: 600px
+
+}
+ 
+
+
+.alienRaceGroup img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.shipPics img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.shipInfo{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: block;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
