@@ -84,21 +84,75 @@ h2 {
     line-height: 1.7;
 }
 
-#raceTable{
-    width: 900px;
+
+
+.alienRaceGroup1{
+    text-align: center;
+    background-image: url("./images/textBlockBackground.jpg");;
+    padding: 5%;
+    width: 560px;
     margin-left: auto;
+    margin-right: 10;
+    
+}
+.alienRaceGroup2{
+    text-align: center;
+    background-image: url("./images/textBlockBackground.jpg");;
+    padding: 5%;
+    width: 560px;
     margin-right: auto;
+    margin-left: 10;
+    
 }
 
-.alienRaceGroup{
+#civilianSector{
+    display: block;
     text-align: center;
     background-image: url("./images/textBlockBackground.jpg");
-    margin: 20px,20px,20px,20px;
+    background-position: center;
+    margin: 20px,50px,20px,20px;
     padding: 5%;
-    width: 600px
-
+    width: 560px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: green;
+    border-width: 8px;
 }
  
+#hostileSector{
+    display: block;
+    text-align: center;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    padding: 5%;
+    width: 560px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: red;
+    border-width: 8px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#nebulaSector{
+    display: block;
+    text-align: center;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    padding: 5%;
+    width: 560px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: purple;
+    border-width: 8px;
+    
+}
 
 
 .alienRaceGroup img{
@@ -125,6 +179,83 @@ h2 {
     background-position: center;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    
+.weaponHeader{
+    text-align: center;
+    font-size: 40;
+    font-weight: bolder;
+    text-decoration: purple;
+}
+
+.weapons1{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: block;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 560;
+    margin-right: 20;
+    margin-left: auto;
+}
+
+.weapons2{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: .5%;
+    padding-bottom: 1%;
+    display: block;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 560;
+    margin-right: auto;
+    margin-left: 20;
+}
+
+#eventBlock{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: .5%;
+    padding-bottom: 1%;
+    display: block;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 560;
+    margin-right: auto;
+    margin-left: auto;
+}
+.events{
+    font-size: 40;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url("./images/textBlockBackground.jpg");
+    background-position: center;
+    width:400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    color: purple;
+}
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 10%;
+    left: auto;
+    font-size: 16px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
 }
